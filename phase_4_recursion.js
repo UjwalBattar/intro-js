@@ -74,7 +74,7 @@ function fibsRec(n) {
 console.log(`fibsRec(5) = ${fibsRec(5)}`);
 
 function fibsIter(n) {
-    let prev = [0, 1]
+    let prev = [0, 1];
 
     if (n < 3) return prev.slice(0, n);
 
